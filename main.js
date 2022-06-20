@@ -21,7 +21,7 @@ let animation = () => {
 
 let update = () => {
     ctx.clearRect(0,0,canvas.width,canvas.height)
-    draw(8)   
+    draw()   
 }
 
 let draw = () => {
